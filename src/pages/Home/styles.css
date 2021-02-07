@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #ddd solid;
+  transition: all 0.8s ease-out
+}
+
+.box:hover {
+  cursor: pointer;
+  border-color:  #000;
+}
+
+.box > label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
